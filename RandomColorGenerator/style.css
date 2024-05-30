@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+  
+}
+.star-container{
+  background-color: aliceblue;
+  padding: 10%;
+  border-radius: 5px;
+
+}
+header{
+  color: rgb(131, 195, 252);
+  text-transform: capitalize;
+  font-size: 5vh;
+}
+.stars{
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+  font-size: 5vh;
+  color:rgb(131, 195, 252) ;
+  cursor: pointer;
+  gap: 8px;
+  transition: color 0.2s ease-in;
+}
+
+.stars .fa-star .active{
+  color: gold;
+}
+.out-of-title{
+  margin-top: 7vh;
+  display: flex;
+  justify-content: center;
+  color: rgb(131, 195, 252);
+}
