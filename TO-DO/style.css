@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.to-do-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.to-do-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.to-do-input {
+  display: flex;
+}
+
+.to-do-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.to-do-input button {
+  padding: 10px;
+  border: none;
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.to-do-input button:hover {
+  background-color: #0056b3;
+}
+
+.to-do-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.to-do-list li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.to-do-list li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.to-do-list li button:hover {
+  background-color: #c82333;
+}
